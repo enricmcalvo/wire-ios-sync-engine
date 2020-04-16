@@ -415,7 +415,6 @@
 		BFCE9A5B1C4E4C4D00951B3D /* store124.wiredatabase in Resources */ = {isa = PBXBuildFile; fileRef = BFCE9A581C4E4C4D00951B3D /* store124.wiredatabase */; };
 		BFE53F551D5A2F7000398378 /* DeleteMessagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE53F541D5A2F7000398378 /* DeleteMessagesTests.swift */; };
 		BFE7FCBF2101E50700D1165F /* CompanyLoginVerificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE7FCBE2101E50700D1165F /* CompanyLoginVerificationToken.swift */; };
-		CE5DC1A11DDA09F000D24DBA /* avs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5DC1A01DDA09F000D24DBA /* avs.framework */; };
 		CEE02E461DDA0F4D00BA2BE2 /* avs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5DC1A01DDA09F000D24DBA /* avs.framework */; };
 		CEF2DE7F1DB778F300451642 /* RequestLoopAnalyticsTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2DE7E1DB778F300451642 /* RequestLoopAnalyticsTracker.swift */; };
 		D522571E2062552800562561 /* AssetDeletionRequestStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522571D2062552800562561 /* AssetDeletionRequestStrategy.swift */; };
@@ -453,6 +452,7 @@
 		EEEED9AA23F6BD75008C94CA /* ZMUserSession+SelfUserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEED9A923F6BD75008C94CA /* ZMUserSession+SelfUserProvider.swift */; };
 		EEF4010123A8DFC6007B1A97 /* Conversation+Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4010023A8DFC6007B1A97 /* Conversation+Role.swift */; };
 		EEF4010323A8E1EF007B1A97 /* Conversation_RoleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4010223A8E1EF007B1A97 /* Conversation_RoleTests.swift */; };
+		EEFBF9F02448404400602EB6 /* avs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFBF9EF2448404400602EB6 /* avs.framework */; };
 		EF169DDF22E85BA100B74D4A /* ZMConversationSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF169DDE22E85BA100B74D4A /* ZMConversationSource.swift */; };
 		EF2CB12722D5E58B00350B0A /* TeamImageAssetUpdateStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2CB12622D5E58B00350B0A /* TeamImageAssetUpdateStrategy.swift */; };
 		EF2CB12A22D5E5BF00350B0A /* TeamImageAssetUpdateStrategyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2CB12822D5E5BB00350B0A /* TeamImageAssetUpdateStrategyTests.swift */; };
@@ -1125,6 +1125,7 @@
 		EEEED9A923F6BD75008C94CA /* ZMUserSession+SelfUserProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZMUserSession+SelfUserProvider.swift"; sourceTree = "<group>"; };
 		EEF4010023A8DFC6007B1A97 /* Conversation+Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Conversation+Role.swift"; sourceTree = "<group>"; };
 		EEF4010223A8E1EF007B1A97 /* Conversation_RoleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Conversation_RoleTests.swift; path = "Tests/Source/Data Model/Conversation_RoleTests.swift"; sourceTree = SOURCE_ROOT; };
+		EEFBF9EF2448404400602EB6 /* avs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = avs.framework; sourceTree = "<group>"; };
 		EF169DDE22E85BA100B74D4A /* ZMConversationSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMConversationSource.swift; sourceTree = "<group>"; };
 		EF2CB12622D5E58B00350B0A /* TeamImageAssetUpdateStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamImageAssetUpdateStrategy.swift; sourceTree = "<group>"; };
 		EF2CB12822D5E5BB00350B0A /* TeamImageAssetUpdateStrategyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamImageAssetUpdateStrategyTests.swift; sourceTree = "<group>"; };
@@ -1323,7 +1324,6 @@
 			files = (
 				878B823820A1DCE7007455CA /* HTMLString.framework in Frameworks */,
 				D59F3A1020691A0F0023474F /* ZipArchive.framework in Frameworks */,
-				CE5DC1A11DDA09F000D24DBA /* avs.framework in Frameworks */,
 				54E03A631E93CEED0089AC69 /* WireImages.framework in Frameworks */,
 				54E03A6C1E93CEED0089AC69 /* WireUtilities.framework in Frameworks */,
 				5442A7321E42244C00415104 /* libPhoneNumberiOS.framework in Frameworks */,
@@ -1333,6 +1333,7 @@
 				54E03A6B1E93CEED0089AC69 /* WireTransport.framework in Frameworks */,
 				54E03A671E93CEED0089AC69 /* WireProtos.framework in Frameworks */,
 				A96190CA23A6DDCE00B8665F /* WireDataModel.framework in Frameworks */,
+				EEFBF9F02448404400602EB6 /* avs.framework in Frameworks */,
 				54E03A691E93CEED0089AC69 /* WireSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1578,6 +1579,7 @@
 		540029AA1918CA8500578793 = {
 			isa = PBXGroup;
 			children = (
+				EEFBF9EF2448404400602EB6 /* avs.framework */,
 				09284B6A1B8272C300EEE10E /* WireSyncEngine Test Host.entitlements */,
 				09CC4AB71B7CB8B700201C63 /* Cartfile */,
 				F93C4C6F1E1E8B77007E9CEE /* Cartfile.resolved */,
@@ -3411,6 +3413,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0994E1F01B835C4900A51721 /* WireSyncEngine.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Source/WireSyncEngine-iOS.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/WireSyncEngine-ios-Info.plist";
 				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
@@ -3422,6 +3428,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0994E1F01B835C4900A51721 /* WireSyncEngine.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Source/WireSyncEngine-iOS.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/WireSyncEngine-ios-Info.plist";
 				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
